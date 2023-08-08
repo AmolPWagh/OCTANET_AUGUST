@@ -1,0 +1,220 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/man-5886576_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 18px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 11px 20px;
+    background-color: rgb(108, 107, 107);
+    border: 0;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn1:active {
+    text-decoration: none;
+}
+
+#signin {
+    box-shadow: 0 0 10px gray;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    background: rgb(67, 67, 67);
+    padding: 11px 20px;
+    border: none;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+#signin:hover {
+    color: rgb(0, 0, 0);
+}
+
+#signin:active {
+    color: rgb(108, 105, 105);
+    background: white;
+}
+
+.img1 {
+    width: 30px;
+    /* filter: invert(100%); */
+    /* to invert the color filter */
+}
+
+.hdr {
+    box-shadow: 0 0 10px black;
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(108, 107, 107);
+    height: 60px;
+}
+
+.hdr:onsc {
+    background-color: rgba(108, 107, 107, 0.511);
+}   
+
+#left {
+    text-shadow: 0 0 10px black;
+    font-size: 29px;
+    position: absolute;
+    left: 100px;
+    top: 9px;
+    display: inline-block;
+}
+
+#mid {
+    width: 60%;
+    padding: 1px 0px 1px 0px;
+    margin: 0px auto;
+}
+
+#right {
+    position: absolute;
+    right: 100px;
+    top: 8px;
+    display: inline-block;
+}
+
+.navbar {
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.navbar li {
+    text-shadow: 0 0 5px black;
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 8px;
+    margin: 0px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.Active {
+    text-shadow: 0 0 0px black;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar li a:active {
+    border-radius: 50px;
+    color: rgb(255, 218, 218);
+}
+
+.box1 {
+    text-shadow: 0 0 10px black;
+    background-color: rgba(83, 82, 82, 0.525);
+    text-align: center;
+    padding: 300px 304px;
+    font-size: 80px;
+}
+
+.container2 {
+    box-shadow: 0 0 10px black;
+    margin: 0px 0px;
+    background-color: rgb(146, 146, 146);
+    height: 780px;
+}
+
+.box2 {
+    width: 800px;
+    padding: 30px 10px;
+    margin: 0px 285px;
+    display: flex;
+    text-align: center;
+}
+
+.form {
+    box-shadow: 0 0 10px black;
+    background: rgb(67, 67, 67);
+    padding: 70px 120px;
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px;
+    display: inline-block;
+    text-align: left;
+}
+
+.inpt {
+    font-size: 15px;
+    width: 250px;
+    margin: 5px auto 0px auto;
+}
+
+.gymman {
+    height: 522px;
+    display: inline-block;
+}
+
+.img2 {
+    box-shadow: 0 0 10px black;
+    opacity: 90%;
+    /* border: px solid black; */
+    height: 591px;
+    width: 425px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+.btn1 {
+    width: 100px;
+    margin: 10px 79px;
+    font-size: 16px;
+    color: rgb(67, 67, 67);
+    text-decoration: none;
+    background: white;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn1:hover {
+    box-shadow: 0 0 10px black;
+    color: white;
+    background-color: black;
+}
+
+.btn1:active {
+    color: rgb(67, 67, 67);
+    background: rgb(108, 105, 105);
+}
+
+.rdo {
+    margin: 5px;
+}
+
+.box3 {
+    
+    color: rgb(216, 216, 216);
+    font-size: 33px;
+    width: 800px;
+    padding: 60px 20px 10px 20px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+}
+
+footer {
+    background-color: rgb(108, 107, 107);
+    padding: 10px;
+}
+
+input {
+    border-radius: 7px;
+    padding: 3px;
+    background-color: rgb(183, 183, 183);
+}
